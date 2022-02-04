@@ -1,9 +1,9 @@
-const loginForm = getElementById('welcome-form');
-const messageSection = getElementById('messages-section');
-const messagesList = getElementById('messages-list');
-const addMessageForm = getElementById('add-messages-form');
-const userNameInput = getElementById('username');
-const messageContentInput = getElementById('message-content');
+const loginForm = document.getElementById('welcome-form');
+const messageSection = document.getElementById('messages-section');
+const messagesList = document.getElementById('messages-list');
+const addMessageForm = document.getElementById('add-messages-form');
+const userNameInput = document.getElementById('username');
+const messageContentInput = document.getElementById('message-content');
 
 let userName = '';
 
